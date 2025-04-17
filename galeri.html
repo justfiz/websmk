@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeri - SMKN 1 Sijunjung</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      padding-top: 80px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .gallery-img {
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery-img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SMKN 1 Sijunjung</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="jurusan.html">Profil Jurusan</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Galeri -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Galeri Kegiatan SMK</h2>
+      <div class="row g-4">
+        <!-- Ganti URL gambar sesuai kebutuhan -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=21" alt="Galeri 1" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=22" alt="Galeri 2" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=23" alt="Galeri 3" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=24" alt="Galeri 4" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=25" alt="Galeri 5" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=26" alt="Galeri 6" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=27" alt="Galeri 7" class="w-100 gallery-img">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/300/250?random=28" alt="Galeri 8" class="w-100 gallery-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+      &copy; 2025 SMK Negeri 1 Sijunjung. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
